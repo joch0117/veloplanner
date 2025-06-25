@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    container_name: veloplanner-app
+    volumes:
+      - ../app:/var/www/html
+    networks:
+      - veloplanner-net
+
+networks:
+  veloplanner-net:
+    external: true

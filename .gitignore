@@ -1,0 +1,36 @@
+# Vendor/Composer
+/vendor/
+composer.lock
+
+# Symfony cache/logs
+/var/cache/
+/var/log/
+/var/data/
+
+# Fichiers d'environnement locaux
+.env.local
+.env.*.local
+.env.test
+
+# Build front/Webpack Encore
+/public/build/
+/node_modules/
+npm-debug.log
+
+# Docker (si tu montes des volumes data)
+data/
+*/data/
+
+# Fichiers IDE
+*.iml
+.idea/
+.vscode/
+
+# Systèmes
+.DS_Store
+Thumbs.db
+
+# dump/backup/dev-only
+*.sql
+*.sqlite
+dump.sql
